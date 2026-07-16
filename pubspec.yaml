@@ -65,13 +65,9 @@ flutter:
     - assets/images/test_asset_variants/test_png_variant_1.png
     - assets/images/test_only_main_asset_1.png
     - packages/flutter_r_demo/assets/images/test_asset_variants/3x/variant-subdir/test_variant-subdir.png
-    - packages/flutter_r_demo/assets/images/test_asset_variants/test_jpg_variant.jpg
     - packages/flutter_r_demo/assets/images/test_asset_variants/test_no_main_asset.png
-    - packages/flutter_r_demo/assets/images/test_asset_variants/test_only_1.5x_variant.png
     - packages/flutter_r_demo/assets/images/test_asset_variants/test_only_3x_variant.png
-    - packages/flutter_r_demo/assets/images/test_asset_variants/test_only_main_asset_0.png
     - packages/flutter_r_demo/assets/images/test_asset_variants/test_only_main_asset_2.png
-    - packages/flutter_r_demo/assets/images/test_asset_variants/test_png_variant_0.png
     - packages/flutter_r_demo/assets/images/test_asset_variants/test_png_variant_2.png
     - packages/flutter_r_demo/assets/images/test_bad_images/$_test_begin_with_character$.png
     - packages/flutter_r_demo/assets/images/test_bad_images/5_test_begin_with_number.png
@@ -89,6 +85,11 @@ flutter:
     - packages/flutter_r_demo/assets/images/test_same_name/test_sameName.png
     - packages/flutter_r_demo/assets/images/test_svg/3.0x/test_3.0x_svg.svg
     - packages/flutter_r_demo/assets/images/test_svg/test_svg.svg
+    - packages/flutter_r_demo/flr.assets/images/test_jpg_variant/test_jpg_variant.jpg
+    - packages/flutter_r_demo/flr.assets/images/test_no_main_asset/test_no_main_asset.png
+    - packages/flutter_r_demo/flr.assets/images/test_only_1.5x_variant/test_only_1.5x_variant.png
+    - packages/flutter_r_demo/flr.assets/images/test_only_main_asset_0/test_only_main_asset_0.png
+    - packages/flutter_r_demo/flr.assets/images/test_png_variant_0/test_png_variant_0.png
     - assets/texts/test.txt
     - packages/flutter_r_demo/assets/texts/jsons/subdir/subsubdir/test_subsubdir.json
     - packages/flutter_r_demo/assets/texts/jsons/subdir/test_subdir.json
@@ -97,6 +98,8 @@ flutter:
     - packages/flutter_r_demo/assets/texts/yamls/test_same_asset_id/test+.yaml
     - packages/flutter_r_demo/assets/texts/yamls/test_same_asset_id/test-.yaml
     - packages/flutter_r_demo/assets/texts/yamls/test_same_asset_id/test@.yaml
+    - packages/flutter_r_demo/flr.assets/rawfiles/test_json.json
+    - packages/flutter_r_demo/flr.assets/rawfiles/test_yaml.yaml
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
@@ -160,3 +163,20 @@ flutter:
         - asset: packages/flutter_r_demo/assets/fonts/test_level_font/level1/level2/test_L2_font.ttf
         - asset: packages/flutter_r_demo/assets/fonts/test_level_font/level1/test_L1_font.ttf
         - asset: packages/flutter_r_demo/assets/fonts/test_level_font/test_level_font.ttf
+flr:
+  core_version: 3.2.0
+  dartfmt_line_length: 80
+  assets:
+    - lib/assets/images
+    - lib/assets/texts
+    - assets/images
+    - assets/texts
+    - lib/flr.assets/images/test_jpg_variant
+    - lib/flr.assets/images/test_no_main_asset
+    - lib/flr.assets/images/test_only_1.5x_variant
+    - lib/flr.assets/images/test_only_main_asset_0
+    - lib/flr.assets/images/test_png_variant_0
+    - lib/flr.assets/rawfiles
+  fonts:
+    - lib/assets/fonts
+    - assets/fonts

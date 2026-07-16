@@ -83,12 +83,12 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   void _readTestJson() async {
-    var rawString = await R.text.test_json();
+    var rawString = await R.text.test_json_json();
     _alertMessage(rawString);
   }
 
   void _readTestYaml() async {
-    var rawString = await R.text.test_yaml();
+    var rawString = await R.text.test_yaml_yaml();
     _alertMessage(rawString);
   }
 
@@ -101,15 +101,15 @@ class _MyHomePageState extends State<MyHomePage> {
     // fast, so that you can just rebuild anything that needs updating rather
     // than having to individually change instances of widgets.
     var nonImpliedImageWidget_1 =
-    Image(width: 100, height: 100, image: R.image.test_only_main_asset_1());
+    Image(width: 100, height: 100, image: R.image.test_jpg_variant_jpg());
     var nonImpliedImageWidget_2 =
-    Image(width: 100, height: 100, image: R.image.test_png_variant_1());
+    Image(width: 100, height: 100, image: R.image.test_only_main_asset_0());
 
     var impliedImageWidget_1 =
-    Image(width: 100, height: 100, image: R.image.test_only_main_asset_2());
+    Image(width: 100, height: 100, image: R.image.test_png_variant_0());
     var impliedImageWidget_2 = Image(width: 100, height: 100, image: R.image.test_png_variant_2());
 
-    var jpgImageWidget = Image(width: 100, height: 100, image: R.image.test_jpg_variant_jpg());
+    var jpgImageWidget = Image(width: 100, height: 100, image: R.image.test_sameName_jpg());
 
     var svgImageWidget = Image(
       width: 100,
@@ -200,13 +200,13 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             CupertinoButton(
               child: Text(
-                "read  test.json",
+                "read  test_json.json",
               ),
               onPressed: _readTestJson,
             ),
             CupertinoButton(
               child: Text(
-                "read  test.yaml",
+                "read  test_yaml.yaml",
               ),
               onPressed: _readTestYaml,
             ),
