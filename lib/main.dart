@@ -111,11 +111,16 @@ class _MyHomePageState extends State<MyHomePage> {
 
     var jpgImageWidget = Image(width: 100, height: 100, image: R.image.test_sameName_jpg());
 
-    var svgImageWidget = Image(
+    var svgImageWidget_1 = Image(
       width: 100,
       height: 100,
-      // image: R.svg.test_svg(width: 100, height: 100),
-      image: R.image.test________$_(),
+      image: R.svg.test_svg(width: 100, height: 100),
+    );
+
+    var svgImageWidget_2 = Image(
+      width: 100,
+      height: 100,
+      image: R.svg.test_3_0x_svg(width: 100, height: 100),
     );
 
     var gifImageWidget = Image(
@@ -182,7 +187,8 @@ class _MyHomePageState extends State<MyHomePage> {
             impliedImageWidget_1,
             impliedImageWidget_2,
             jpgImageWidget,
-            svgImageWidget,
+            svgImageWidget_1,
+            svgImageWidget_2,
             gifImageWidget,
             Text(
               "--- Test Text Resource ---",

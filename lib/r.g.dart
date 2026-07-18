@@ -12,9 +12,9 @@ import 'package:flutter/services.dart' show rootBundle;
 // ignore: unused_import
 import 'package:path/path.dart' as path;
 // ignore: unused_import
-// import 'package:flutter_svg/flutter_svg.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 // ignore: unused_import
-// import 'package:r_dart_library/asset_svg.dart';
+import 'package:r_dart_library/asset_svg.dart';
 
 /// This `R` class is generated and contains references to static asset resources.
 class R {
@@ -543,25 +543,25 @@ class _R_Svg {
 
   /// asset: lib/assets/images/test_svg/3.0x/test_3.0x_svg.svg
   // ignore: non_constant_identifier_names
-  // AssetSvg test_3_0x_svg({required double width, required double height}) {
-  //   final imageProvider = AssetSvg(
-  //     asset.test_3_0x_svg.keyName,
-  //     width: width,
-  //     height: height,
-  //   );
-  //   return imageProvider;
-  // }
+  AssetSvg test_3_0x_svg({required double width, required double height}) {
+    final imageProvider = AssetSvg(
+      asset.test_3_0x_svg.keyName,
+      width: width,
+      height: height,
+    );
+    return imageProvider;
+  }
 
   /// asset: lib/assets/images/test_svg/test_svg.svg
   // ignore: non_constant_identifier_names
-  // AssetSvg test_svg({required double width, required double height}) {
-  //   final imageProvider = AssetSvg(
-  //     asset.test_svg.keyName,
-  //     width: width,
-  //     height: height,
-  //   );
-  //   return imageProvider;
-  // }
+  AssetSvg test_svg({required double width, required double height}) {
+    final imageProvider = AssetSvg(
+      asset.test_svg.keyName,
+      width: width,
+      height: height,
+    );
+    return imageProvider;
+  }
 }
 
 /// This `_R_Text` class is generated and contains references to static text asset resources.
