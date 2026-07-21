@@ -240,6 +240,13 @@ class _R_Image_AssetResource {
     packageName: R.package,
   );
 
+  /// asset: lib/flr.assets/images/test_gif/test_gif.gif
+  // ignore: non_constant_identifier_names
+  final test_gif_gif = const AssetResource(
+    "flr.assets/images/test_gif/test_gif.gif",
+    packageName: R.package,
+  );
+
   /// asset: lib/flr.assets/images/test_jpg_variant/test_jpg_variant.jpg
   // ignore: non_constant_identifier_names
   final test_jpg_variant_jpg = const AssetResource(
@@ -501,6 +508,12 @@ class _R_Image {
   // ignore: non_constant_identifier_names
   AssetImage test_sameName() {
     return AssetImage(asset.test_sameName.keyName);
+  }
+
+  /// asset: lib/flr.assets/images/test_gif/test_gif.gif
+  // ignore: non_constant_identifier_names
+  AssetImage test_gif_gif() {
+    return AssetImage(asset.test_gif_gif.keyName);
   }
 
   /// asset: lib/flr.assets/images/test_jpg_variant/test_jpg_variant.jpg

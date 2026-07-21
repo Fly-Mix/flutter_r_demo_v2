@@ -124,7 +124,7 @@ class _MyHomePageState extends State<MyHomePage> {
     );
 
     var gifImageWidget = Image(
-      image: R.image.test_sameName_gif(),
+      image: R.image.test_gif_gif(),
     );
 
     var amiri_TextWidget = Text("test Amiri 字体",
