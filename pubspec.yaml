@@ -104,6 +104,10 @@ flutter:
     - packages/flutter_r_demo/assets/texts/yamls/test_same_asset_id/test@.yaml
     - packages/flutter_r_demo/flr.assets/rawfiles/test_json/test_json.json
     - packages/flutter_r_demo/flr.assets/rawfiles/test_yaml/test_yaml.yaml
+    - packages/flutter_r_demo/flr.assets/fonts/Sky_IconFont/iconfont.json
+    - packages/flutter_r_demo/flr.assets/fonts/Sky_IconFont/iconfont.svg
+    - packages/flutter_r_demo/flr.assets/fonts/YorkFish_IconFont/iconfont.json
+    - packages/flutter_r_demo/flr.assets/fonts/YorkFish_IconFont/iconfont.svg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
@@ -133,23 +137,23 @@ flutter:
   fonts:
     - family: Amiri
       fonts:
-        - asset: packages/flutter_r_demo/assets/fonts/Amiri/Amiri-Bold.ttf
-        - asset: packages/flutter_r_demo/assets/fonts/Amiri/Amiri-BoldItalic.ttf
-        - asset: packages/flutter_r_demo/assets/fonts/Amiri/Amiri-Italic.ttf
-        - asset: packages/flutter_r_demo/assets/fonts/Amiri/Amiri-Regular.ttf
+        - asset: packages/flutter_r_demo/flr.assets/fonts/Amiri/Amiri-Bold.ttf
+        - asset: packages/flutter_r_demo/flr.assets/fonts/Amiri/Amiri-BoldItalic.ttf
+        - asset: packages/flutter_r_demo/flr.assets/fonts/Amiri/Amiri-Italic.ttf
+        - asset: packages/flutter_r_demo/flr.assets/fonts/Amiri/Amiri-Regular.ttf
     - family: Baloo_Thambi_2
       fonts:
-        - asset: assets/fonts/Baloo_Thambi_2/BalooThambi2-Bold.ttf
-        - asset: assets/fonts/Baloo_Thambi_2/BalooThambi2-ExtraBold.ttf
-        - asset: assets/fonts/Baloo_Thambi_2/BalooThambi2-Medium.ttf
-        - asset: assets/fonts/Baloo_Thambi_2/BalooThambi2-Regular.ttf
-        - asset: assets/fonts/Baloo_Thambi_2/BalooThambi2-SemiBold.ttf
+        - asset: packages/flutter_r_demo/flr.assets/fonts/Baloo_Thambi_2/BalooThambi2-Bold.ttf
+        - asset: packages/flutter_r_demo/flr.assets/fonts/Baloo_Thambi_2/BalooThambi2-ExtraBold.ttf
+        - asset: packages/flutter_r_demo/flr.assets/fonts/Baloo_Thambi_2/BalooThambi2-Medium.ttf
+        - asset: packages/flutter_r_demo/flr.assets/fonts/Baloo_Thambi_2/BalooThambi2-Regular.ttf
+        - asset: packages/flutter_r_demo/flr.assets/fonts/Baloo_Thambi_2/BalooThambi2-SemiBold.ttf
     - family: Dan_Zhai_Hang_Shu_Cai
       fonts:
-        - asset: packages/flutter_r_demo/assets/fonts/Dan_Zhai_Hang_Shu_Cai/Dan_Zhai_Hang_Shu_Cai.ttc
+        - asset: packages/flutter_r_demo/flr.assets/fonts/Dan_Zhai_Hang_Shu_Cai/Dan_Zhai_Hang_Shu_Cai.ttc
     - family: Liu_Jian_Mao_Cao
       fonts:
-        - asset: assets/fonts/Liu_Jian_Mao_Cao/LiuJianMaoCao-Regular.ttf
+        - asset: packages/flutter_r_demo/flr.assets/fonts/Liu_Jian_Mao_Cao/LiuJianMaoCao-Regular.ttf
     - family: Lobster
       fonts:
         - asset: assets/fonts/Lobster/Lobster-Regular.ttf
@@ -158,10 +162,10 @@ flutter:
         - asset: packages/flutter_r_demo/assets/fonts/Pacifico/Pacifico-Regular.ttf
     - family: Sky_IconFont
       fonts:
-        - asset: assets/fonts/Sky_IconFont/iconfont.ttf
+        - asset: packages/flutter_r_demo/flr.assets/fonts/Sky_IconFont/iconfont.ttf
     - family: YorkFish_IconFont
       fonts:
-        - asset: packages/flutter_r_demo/assets/fonts/YorkFish_IconFont/iconfont.ttf
+        - asset: packages/flutter_r_demo/flr.assets/fonts/YorkFish_IconFont/iconfont.ttf
     - family: test_level_font
       fonts:
         - asset: packages/flutter_r_demo/assets/fonts/test_level_font/level1/level2/test_L2_font.ttf
@@ -186,3 +190,4 @@ flr:
   fonts:
     - lib/assets/fonts
     - assets/fonts
+    - lib/flr.assets/fonts
