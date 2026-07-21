@@ -355,17 +355,17 @@ class _R_Text_AssetResource {
     packageName: R.package,
   );
 
-  /// asset: lib/flr.assets/rawfiles/test_json.json
+  /// asset: lib/flr.assets/rawfiles/test_json/test_json.json
   // ignore: non_constant_identifier_names
   final test_json_json = const AssetResource(
-    "flr.assets/rawfiles/test_json.json",
+    "flr.assets/rawfiles/test_json/test_json.json",
     packageName: R.package,
   );
 
-  /// asset: lib/flr.assets/rawfiles/test_yaml.yaml
+  /// asset: lib/flr.assets/rawfiles/test_yaml/test_yaml.yaml
   // ignore: non_constant_identifier_names
   final test_yaml_yaml = const AssetResource(
-    "flr.assets/rawfiles/test_yaml.yaml",
+    "flr.assets/rawfiles/test_yaml/test_yaml.yaml",
     packageName: R.package,
   );
 }
@@ -627,14 +627,14 @@ class _R_Text {
     return str;
   }
 
-  /// asset: lib/flr.assets/rawfiles/test_json.json
+  /// asset: lib/flr.assets/rawfiles/test_json/test_json.json
   // ignore: non_constant_identifier_names
   Future<String> test_json_json() {
     final str = rootBundle.loadString(asset.test_json_json.keyName);
     return str;
   }
 
-  /// asset: lib/flr.assets/rawfiles/test_yaml.yaml
+  /// asset: lib/flr.assets/rawfiles/test_yaml/test_yaml.yaml
   // ignore: non_constant_identifier_names
   Future<String> test_yaml_yaml() {
     final str = rootBundle.loadString(asset.test_yaml_yaml.keyName);

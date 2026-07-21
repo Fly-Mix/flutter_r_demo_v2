@@ -101,8 +101,8 @@ flutter:
     - packages/flutter_r_demo/assets/texts/yamls/test_same_asset_id/test+.yaml
     - packages/flutter_r_demo/assets/texts/yamls/test_same_asset_id/test-.yaml
     - packages/flutter_r_demo/assets/texts/yamls/test_same_asset_id/test@.yaml
-    - packages/flutter_r_demo/flr.assets/rawfiles/test_json.json
-    - packages/flutter_r_demo/flr.assets/rawfiles/test_yaml.yaml
+    - packages/flutter_r_demo/flr.assets/rawfiles/test_json/test_json.json
+    - packages/flutter_r_demo/flr.assets/rawfiles/test_yaml/test_yaml.yaml
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
@@ -179,7 +179,8 @@ flr:
     - lib/flr.assets/images/test_only_1.5x_variant
     - lib/flr.assets/images/test_only_main_asset_0
     - lib/flr.assets/images/test_png_variant_0
-    - lib/flr.assets/rawfiles
+    - lib/flr.assets/rawfiles/test_json
+    - lib/flr.assets/rawfiles/test_yaml
   fonts:
     - lib/assets/fonts
     - assets/fonts
