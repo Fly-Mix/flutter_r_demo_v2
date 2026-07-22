@@ -83,12 +83,12 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   void _readTestJson() async {
-    var rawString = await R.text.test_json_json();
+    var rawString = await R.text.test_json();
     _alertMessage(rawString);
   }
 
   void _readTestYaml() async {
-    var rawString = await R.text.test_yaml_yaml();
+    var rawString = await R.text.test_yaml();
     _alertMessage(rawString);
   }
 
@@ -101,15 +101,15 @@ class _MyHomePageState extends State<MyHomePage> {
     // fast, so that you can just rebuild anything that needs updating rather
     // than having to individually change instances of widgets.
     var nonImpliedImageWidget_1 =
-    Image(width: 100, height: 100, image: R.image.test_jpg_variant_jpg());
+    Image(width: 100, height: 100, image: R.image.test_no_main_asset());
     var nonImpliedImageWidget_2 =
     Image(width: 100, height: 100, image: R.image.test_only_main_asset_0());
 
     var impliedImageWidget_1 =
     Image(width: 100, height: 100, image: R.image.test_png_variant_0());
-    var impliedImageWidget_2 = Image(width: 100, height: 100, image: R.image.test_png_variant_2());
+    var impliedImageWidget_2 = Image(width: 100, height: 100, image: R.image.test_only_1_5x_variant());
 
-    var jpgImageWidget = Image(width: 100, height: 100, image: R.image.test_sameName_jpg());
+    var jpgImageWidget = Image(width: 100, height: 100, image: R.image.test_jpg_variant());
 
     var svgImageWidget_1 = Image(
       width: 100,
@@ -124,7 +124,7 @@ class _MyHomePageState extends State<MyHomePage> {
     );
 
     var gifImageWidget = Image(
-      image: R.image.test_gif_gif(),
+      image: R.image.test_gif(),
     );
 
     var amiri_TextWidget = Text("test Amiri 字体",
@@ -178,7 +178,7 @@ class _MyHomePageState extends State<MyHomePage> {
               "--- Test Image Resource ---",
               textAlign: TextAlign.center,
               style: TextStyle(
-                  fontFamily: R.fontFamily.lobster,
+                  fontFamily: R.fontFamily.amiri,
                   fontStyle: FontStyle.normal,
                   fontWeight: FontWeight.w900),
             ),
@@ -194,7 +194,7 @@ class _MyHomePageState extends State<MyHomePage> {
               "--- Test Text Resource ---",
               textAlign: TextAlign.center,
               style: TextStyle(
-                  fontFamily: R.fontFamily.lobster,
+                  fontFamily: R.fontFamily.amiri,
                   fontStyle: FontStyle.normal,
                   fontWeight: FontWeight.w900),
             ),
@@ -220,7 +220,7 @@ class _MyHomePageState extends State<MyHomePage> {
               "--- Test Font Resource ---",
               textAlign: TextAlign.center,
               style: TextStyle(
-                  fontFamily: R.fontFamily.pacifico,
+                  fontFamily: R.fontFamily.amiri,
                   fontStyle: FontStyle.normal,
                   fontWeight: FontWeight.w900),
             ),
@@ -240,7 +240,7 @@ class _MyHomePageState extends State<MyHomePage> {
               "--- Ending ---",
               textAlign: TextAlign.center,
               style: TextStyle(
-                  fontFamily: R.fontFamily.pacifico,
+                  fontFamily: R.fontFamily.amiri,
                   fontStyle: FontStyle.normal,
                   fontWeight: FontWeight.w900),
             ),

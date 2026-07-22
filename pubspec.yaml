@@ -65,44 +65,16 @@ flutter:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
   assets:
-    - assets/images/test_asset_variants/test_png_variant_1.png
-    - assets/images/test_only_main_asset_1.png
-    - packages/flutter_r_demo/assets/images/test_asset_variants/3x/variant-subdir/test_variant-subdir.png
-    - packages/flutter_r_demo/assets/images/test_asset_variants/test_no_main_asset.png
-    - packages/flutter_r_demo/assets/images/test_asset_variants/test_only_3x_variant.png
-    - packages/flutter_r_demo/assets/images/test_asset_variants/test_only_main_asset_2.png
-    - packages/flutter_r_demo/assets/images/test_asset_variants/test_png_variant_2.png
-    - packages/flutter_r_demo/assets/images/test_bad_images/$_test_begin_with_character$.png
-    - packages/flutter_r_demo/assets/images/test_bad_images/5_test_begin_with_number.png
-    - packages/flutter_r_demo/assets/images/test_bad_images/C_test_begin_with_capitalize.png
-    - packages/flutter_r_demo/assets/images/test_bad_images/_test_begin_with_character_.png
-    - packages/flutter_r_demo/assets/images/test_bad_images/test_+-.·!@&$￥.png
-    - packages/flutter_r_demo/assets/images/test_bad_images/test_UPPER_CASE.png
-    - packages/flutter_r_demo/assets/images/test_bad_images/test_good_character.png
-    - packages/flutter_r_demo/assets/images/test_same_asset_id/test_same_asset_id!.png
-    - packages/flutter_r_demo/assets/images/test_same_asset_id/test_same_asset_id+.png
-    - packages/flutter_r_demo/assets/images/test_same_asset_id/test_same_asset_id-.png
-    - packages/flutter_r_demo/assets/images/test_same_asset_id/test_same_asset_id￥.png
-    - packages/flutter_r_demo/assets/images/test_same_name/test_sameName.gif
-    - packages/flutter_r_demo/assets/images/test_same_name/test_sameName.jpg
-    - packages/flutter_r_demo/assets/images/test_same_name/test_sameName.png
-    - packages/flutter_r_demo/assets/images/test_svg/3.0x/test_3.0x_svg.svg
-    - packages/flutter_r_demo/assets/images/test_svg/test_svg.svg
+    - packages/flutter_r_demo/flr.assets/images/test_3.0x_svg/test_3.0x_svg.svg
     - packages/flutter_r_demo/flr.assets/images/test_gif/test_gif.gif
     - packages/flutter_r_demo/flr.assets/images/test_jpg_variant/test_jpg_variant.jpg
     - packages/flutter_r_demo/flr.assets/images/test_no_main_asset/test_no_main_asset.png
     - packages/flutter_r_demo/flr.assets/images/test_only_1.5x_variant/test_only_1.5x_variant.png
     - packages/flutter_r_demo/flr.assets/images/test_only_main_asset_0/test_only_main_asset_0.png
     - packages/flutter_r_demo/flr.assets/images/test_png_variant_0/test_png_variant_0.png
-    - assets/texts/test.txt
-    - packages/flutter_r_demo/assets/texts/jsons/subdir/subsubdir/test_subsubdir.json
-    - packages/flutter_r_demo/assets/texts/jsons/subdir/test_subdir.json
-    - packages/flutter_r_demo/assets/texts/jsons/test.json
-    - packages/flutter_r_demo/assets/texts/yamls/test.yaml
-    - packages/flutter_r_demo/assets/texts/yamls/test_same_asset_id/test+.yaml
-    - packages/flutter_r_demo/assets/texts/yamls/test_same_asset_id/test-.yaml
-    - packages/flutter_r_demo/assets/texts/yamls/test_same_asset_id/test@.yaml
+    - packages/flutter_r_demo/flr.assets/images/test_svg/test_svg.svg
     - packages/flutter_r_demo/flr.assets/rawfiles/test_json/test_json.json
+    - packages/flutter_r_demo/flr.assets/rawfiles/test_txt/test_txt.txt
     - packages/flutter_r_demo/flr.assets/rawfiles/test_yaml/test_yaml.yaml
     - packages/flutter_r_demo/flr.assets/fonts/Sky_IconFont/iconfont.json
     - packages/flutter_r_demo/flr.assets/fonts/Sky_IconFont/iconfont.svg
@@ -154,23 +126,12 @@ flutter:
     - family: Liu_Jian_Mao_Cao
       fonts:
         - asset: packages/flutter_r_demo/flr.assets/fonts/Liu_Jian_Mao_Cao/LiuJianMaoCao-Regular.ttf
-    - family: Lobster
-      fonts:
-        - asset: assets/fonts/Lobster/Lobster-Regular.ttf
-    - family: Pacifico
-      fonts:
-        - asset: packages/flutter_r_demo/assets/fonts/Pacifico/Pacifico-Regular.ttf
     - family: Sky_IconFont
       fonts:
         - asset: packages/flutter_r_demo/flr.assets/fonts/Sky_IconFont/iconfont.ttf
     - family: YorkFish_IconFont
       fonts:
         - asset: packages/flutter_r_demo/flr.assets/fonts/YorkFish_IconFont/iconfont.ttf
-    - family: test_level_font
-      fonts:
-        - asset: packages/flutter_r_demo/assets/fonts/test_level_font/level1/level2/test_L2_font.ttf
-        - asset: packages/flutter_r_demo/assets/fonts/test_level_font/level1/test_L1_font.ttf
-        - asset: packages/flutter_r_demo/assets/fonts/test_level_font/test_level_font.ttf
 flr:
   core_version: 3.2.0
   dartfmt_line_length: 80
@@ -185,8 +146,11 @@ flr:
     - lib/flr.assets/images/test_only_main_asset_0
     - lib/flr.assets/images/test_png_variant_0
     - lib/flr.assets/images/test_gif
+    - lib/flr.assets/images/test_svg
+    - lib/flr.assets/images/test_3.0x_svg
     - lib/flr.assets/rawfiles/test_json
     - lib/flr.assets/rawfiles/test_yaml
+    - lib/flr.assets/rawfiles/test_txt
   fonts:
     - lib/assets/fonts
     - assets/fonts
